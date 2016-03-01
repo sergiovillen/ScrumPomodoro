@@ -136,6 +136,8 @@
     <Compile Include="AuthContext.cs" />
     <Compile Include="AuthRepository.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
+    <Compile Include="Models\Pomodoro.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
