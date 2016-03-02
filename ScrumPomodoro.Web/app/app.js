@@ -7,35 +7,39 @@ app.config(function ($routeProvider) {
         templateUrl: "/app/views/home.html"
     });
 
-    $routeProvider.when("/login", {
-        controller: "loginController",
-        templateUrl: "/app/views/login.html"
-    });
+    //$routeProvider.when("/login", {
+    //    controller: "loginController",
+    //    templateUrl: "/app/views/login.html"
+    //});
 
     $routeProvider.when("/signup", {
         controller: "signupController",
         templateUrl: "/app/views/signup.html"
-    });
+    });   
+    $routeProvider.when("signup", {
+        controller: "signupController",
+        templateUrl: "/app/views/signup.html"
+    });    
 
-    $routeProvider.when("/test", {
-        controller: "testController",
-        templateUrl: "/app/views/test.html"
-    });
+    //$routeProvider.when("/test", {
+    //    controller: "testController",
+    //    templateUrl: "/app/views/test.html"
+    //});
 
-    $routeProvider.when("/refresh", {
-        controller: "refreshController",
-        templateUrl: "/app/views/refresh.html"
-    });
+    //$routeProvider.when("/refresh", {
+    //    controller: "refreshController",
+    //    templateUrl: "/app/views/refresh.html"
+    //});
 
-    $routeProvider.when("/tokens", {
-        controller: "tokensManagerController",
-        templateUrl: "/app/views/tokens.html"
-    });
+    //$routeProvider.when("/tokens", {
+    //    controller: "tokensManagerController",
+    //    templateUrl: "/app/views/tokens.html"
+    //});
 
-    $routeProvider.when("/associate", {
-        controller: "associateController",
-        templateUrl: "/app/views/associate.html"
-    });
+    //$routeProvider.when("/associate", {
+    //    controller: "associateController",
+    //    templateUrl: "/app/views/associate.html"
+    //});
 
     $routeProvider.otherwise({ redirectTo: "/home" });
 

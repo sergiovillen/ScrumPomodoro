@@ -115,12 +115,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\controllers\home.js" />
+    <Content Include="app\controllers\navigationBar.js" />
     <Content Include="app\controllers\signup.js" />
     <Content Include="app\services\authInterceptorService.js" />
     <Content Include="app\services\authService.js" />
+    <Content Include="app\views\home.html" />
+    <Content Include="app\views\signup.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\freelancer.css" />
+    <Content Include="css\site.css" />
     <Content Include="font-awesome\css\font-awesome.css" />
     <Content Include="font-awesome\css\font-awesome.min.css" />
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
