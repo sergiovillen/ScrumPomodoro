@@ -21,10 +21,10 @@ app.config(function ($routeProvider) {
         templateUrl: "/app/views/signup.html"
     });    
 
-    //$routeProvider.when("/test", {
-    //    controller: "testController",
-    //    templateUrl: "/app/views/test.html"
-    //});
+    $routeProvider.when("/dashboard", {
+        controller: "dashboardController",
+        templateUrl: "/app/views/dashboard.html"
+    });
 
     //$routeProvider.when("/refresh", {
     //    controller: "refreshController",

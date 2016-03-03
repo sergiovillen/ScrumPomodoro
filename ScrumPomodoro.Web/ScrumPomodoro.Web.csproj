@@ -115,11 +115,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\controllers\dashboard.js" />
     <Content Include="app\controllers\home.js" />
+    <Content Include="app\controllers\login.js" />
     <Content Include="app\controllers\navigationBar.js" />
     <Content Include="app\controllers\signup.js" />
     <Content Include="app\services\authInterceptorService.js" />
     <Content Include="app\services\authService.js" />
+    <Content Include="app\views\dashboard.html" />
     <Content Include="app\views\home.html" />
     <Content Include="app\views\signup.html" />
     <Content Include="css\bootstrap.css" />
@@ -137,6 +140,7 @@
     <Content Include="img\portfolio\safe.png" />
     <Content Include="img\portfolio\submarine.png" />
     <Content Include="img\profile.png" />
+    <Content Include="scrumpomodoro.html" />
     <Content Include="index.html" />
     <Content Include="js\angular-local-storage.min.js" />
     <Content Include="js\angular-mocks.js" />
