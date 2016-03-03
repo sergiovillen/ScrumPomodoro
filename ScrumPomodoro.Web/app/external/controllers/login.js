@@ -11,9 +11,7 @@ app.controller('loginController', ['$scope', '$location', 'authService', functio
     $scope.login = function () {
 
         authService.login($scope.loginData).then(function (response) {
-            window.location.href = "/scrumpomodoro.html#/dashboard";
-            $location.path("/dashboard");
-
+            window.location.href = "/app.html";            
         },
          function (err) {
              $scope.message = err.error_description;

@@ -26,7 +26,7 @@
 <body id="page-top" class="index">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container" ng-controller="navigationBarController">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,9 +52,9 @@
                     <li class="page-scroll">
                         <a href="#login">login</a>
                     </li>-->
-                    <li>
-                        <a href="#" data-ng-click="goToSignUp()" >Sign Up</a>
-                    </li>
+                    <!--<li>
+                        <a href="#" >Sign Up</a>
+                    </li>-->
                 </ul>
             </div>            
             <!-- /.navbar-collapse -->
@@ -130,13 +130,10 @@
     <script src="scripts/angular-local-storage.min.js"></script>
     <script src="js/loading-bar.min.js"></script>
     <!-- app -->
-    <script src="app/app.js"></script>
+    <script src="app/secured/app.js"></script>
     <!-- app services -->
-    <script src="app/services/authInterceptorService.js"></script>
-    <script src="app/services/authService.js"></script>
     <!-- app controllers -->
-    <script src="app/controllers/navigationBar.js"></script>
-    <script src="app/controllers/dashboard.js"></script>
+    <script src="app/secured/controllers/home.js"></script>    
     <!--<script src="app/controllers/home.js"></script>
     <script src="app/controllers/signup.js"></script>
     <script src="app/controllers/login.js"></script>-->
